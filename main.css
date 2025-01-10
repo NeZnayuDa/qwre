@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #fcbf49;
+}
+
+.hero {
+    position: relative;
+    background: url(./Bitmap\ \(2\).png) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 600px;
+}
+
+.hero .cta-button {
+    background-color: #fcbf49;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.cta-button {
+    background-color: #fcbf49;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.cta-button:hover {
+    background-color: #faa307;
+}
+
+.hero .cta-button:hover {
+    background-color: #faa307;
+}
+
+.arrow {
+    position: absolute;
+    height: 3px;
+    background-color: #fcbf49;
+}
+
+.arrow.horizontal {
+    width: 200px;
+    top: 50%;
+    left: 10%;
+}
+
+.arrow.vertical {
+    width: 3px;
+    height: 150px;
+    top: 50%;
+    left: calc(10% + 200px);
+}
+img{
+    position: relative;
+    left: 520px;
+    bottom: 140px;
+}
